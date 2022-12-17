@@ -3,7 +3,11 @@
 Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol */
 -fx-color1:#3874ff;
 }
+#parent{
+-fx-min-width:800;
+-fx-min-height:500;
 
+}
 .table-view{
 -fx-background-color:transparent;
 }

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c65efe1-7702-4865-bc53-0174feeb1696" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-administrator-male-50-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-administrator-male-50-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-administrator-male-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-administrator-male-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-arabie-saoudite-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-arabie-saoudite-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-chrome-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-chrome-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-dashboard-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-dashboard-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-france-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-france-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-geolocation-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-geolocation-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-home-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-home-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-jour-et-nuit-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-jour-et-nuit-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-maven-ios-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-maven-ios-100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-notification-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-notification-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-operating-system-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-operating-system-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-people-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-people-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-search-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-search-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-settings-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-settings-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-united-states-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-united-states-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/icons8-warning-shield-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/icons/icons8-warning-shield-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/Style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d50155da-eee6-49cf-85e3-4ef37ef6e843" />
+        <option name="url" value="https://github.com/kaouthar-kabiri/logAnalyzer.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J2tyvyKyl4RUJBvqpDdIuM82Sv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/pc/Desktop/CI4/S7/POO JAVA/PROJETS/frontEnd"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\CI4\S7\POO JAVA\TPs\hello\src\main\resources\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\CI4\S7\POO JAVA\TPs\hello\src\main\resources\org\example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LogApplication" />
+      <module name="hello" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\pc\Downloads\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib --add-modules=javafx.controls,javafx.fxml -Dprism.verbose=true " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LogApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c65efe1-7702-4865-bc53-0174feeb1696" name="Changes" comment="" />
+      <created>1671288265803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671288265803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hello$LogApplication.ic" NAME="LogApplication Coverage Results" MODIFIED="1671295282439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+  </component>
+</project>
