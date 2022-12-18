@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ControllerView1">
+   <children>
+      <Button fx:id="btnSave" layoutX="274.0" layoutY="242.0" mnemonicParsing="false" onAction="#bttsave" prefHeight="25.0" prefWidth="64.0" text="Save" textFill="#1410c7">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="pathField" layoutX="131.0" layoutY="187.0" prefHeight="25.0" prefWidth="337.0" />
+      <Label layoutX="40.0" layoutY="146.0" prefHeight="25.0" prefWidth="310.0" text="Please enter the path of your file :" textFill="#1b0ddb">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
