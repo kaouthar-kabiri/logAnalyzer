@@ -1,4 +1,7 @@
-package com.example.dashboard1;
+package org.example.dashboard1;
+
+import org.example.TimeStamp;
+import org.example.UserAgent;
 
 public class LogRecord {
     final String ipAddress;

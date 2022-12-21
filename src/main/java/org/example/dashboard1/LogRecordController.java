@@ -1,4 +1,4 @@
-package com.example.dashboard1;
+package org.example.dashboard1;
 
 
 import javafx.fxml.Initializable;
@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
 
 public class LogRecordController  implements Initializable {
 
-    public static void addLogRecord(LogRecord logRecord){
+    public static void addLogRecord(org.example.dashboard1.LogRecord logRecord){
 
 
     }

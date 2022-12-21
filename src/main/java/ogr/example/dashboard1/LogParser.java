@@ -1,5 +1,7 @@
-package com.example.dashboard1;
-
+package ogr.example.dashboard1;
+import org.example.TimeStamp;
+import org.example.UserAgent;
+import org.example.dashboard1.LogRecord;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -47,7 +49,7 @@ public class LogParser {
         System.out.println(userAgent);
 
 
-        return new LogRecord(ipAddress, clientId, userId, timestampParser(creationTime), method, protocol, statusCode, sizeParser(size),domainName, userAgentParser(userAgent));
+        return new org.example.dashboard1.LogRecord(ipAddress, clientId, userId, timestampParser(creationTime), method, protocol, statusCode, sizeParser(size),domainName, userAgentParser(userAgent));
     }
     public static UserAgent userAgentParser(String userAgent){
         String regex="^[a-z]|[A-Z]{3} ";

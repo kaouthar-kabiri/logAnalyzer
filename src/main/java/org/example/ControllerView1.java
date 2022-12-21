@@ -25,10 +25,16 @@ public class ControllerView1 extends Component implements Initializable {
     public void bttsave(ActionEvent event) {
         String path_file = new String(pathField.getText());
         System.out.println(path_file);
+        // verifier si le fichier s'agit d un fichier log
+
+        String regex = "^([\\d.]+) (\\S+) (\\S+) \\[([\\w:/]+\\s[+-]\\d{4})\\] \"(.+?)\" (\\d{3}) (\\d+) \"([^\"]+)\" \"(.+?)\"";
+
 
         if(path_file.isEmpty()){
             JOptionPane.showMessageDialog(this,"Please enter the path of your file ","try again", JOptionPane.ERROR_MESSAGE);
-        }else{
+        } else if (!path_file.equals(regex)) {
+
+        } else{
 
             try {
                 btnSave.getScene().getWindow().hide();
