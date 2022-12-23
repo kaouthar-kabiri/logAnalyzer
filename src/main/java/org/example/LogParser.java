@@ -3,7 +3,8 @@ package com.example.dashboard1;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//import net.sf.uadetector.UserAgentStringParser;
+import  java.net.*;
 
 public class LogParser {
 
@@ -21,33 +22,21 @@ public class LogParser {
         String clientId = logMatcher.group(2);
         String userId = logMatcher.group(3);
         String creationTime = logMatcher.group(4);
+
         // C'est pour analyser le 5eme champs et en tirer les elements :method,uri,protocol
-        String request= logMatcher.group(5);
-        String requestRegex="";
-        //
-        String method = logMatcher.group(5);
-        String uri = logMatcher.group(6);
-        String protocol = logMatcher.group(7);
-        //
+        String[] requestURLElements= logMatcher.group(5).split(" ");
+        String method=requestURLElements[0];
+        String uri=requestURLElements[1];
+        String protocol=requestURLElements[2];
+
         String statusCode = logMatcher.group(6);
         String size = logMatcher.group(7);
-        String domainName = logMatcher.group(9);
         String userAgent = logMatcher.group(9);
-
-        System.out.println(ipAddress);
-        System.out.println(clientId);
-        System.out.println(userId);
-        System.out.println(creationTime);
-        System.out.println(method);
-        System.out.println(uri);
-        System.out.println(protocol);
-        System.out.println(statusCode);
-        System.out.println(size);
-        System.out.println(domainName);
-        System.out.println(userAgent);
-
-
-        return new LogRecord(ipAddress, clientId, userId, timestampParser(creationTime), method, protocol, statusCode, sizeParser(size),domainName, userAgentParser(userAgent));
+        for(int i=1;i<10;i++){
+            System.out.println(logMatcher.group(i));
+        }
+        // System.out.println(timestampParser(creationTime).getHour());
+        return new LogRecord(ipAddress, clientId, userId, creationTime, method, uri,protocol, statusCode, sizeParser(size), userAgentParser(userAgent));
     }
     public static UserAgent userAgentParser(String userAgent){
         String regex="^[a-z]|[A-Z]{3} ";
@@ -63,20 +52,18 @@ public class LogParser {
     public static double  sizeParser(String size){ return Double.parseDouble(size);}
     public static TimeStamp timestampParser(String timestamp){
 
-        // String regex="(0[1-9]|[1-2][0-9]|3[0-1])/\\//([a-z]|[A-Z]){3}/\\//[0-9]{4}:(2[0-3]|[01][0-9]):[0-5][0-9]:[0-5][0-9] ((`+' | `-')[0-9]{4})";
-        //String regex="^(\\d{4})\\/(\\d{2})\\/(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2})([+-])(\\d{2}):(\\d{2})$";
+        String[] timestamps=timestamp.split(" ");
+        String[] dateTime=timestamps[0].split(":",2);
+        String[] date=dateTime[0].split("/");
+        String day=date[0];
+        String month=date[1];
+        String year=date[2];
+        String[] time=dateTime[1].split(":");
+        String hour=time[0];
+        String minute=time[1];
+        String second=time[2];
 
-        String regex="^(\\d{2}\\/\\d{2}\\/\\d{4}\\s\\d{2}:\\d{2}:\\d{2}\\s[a-zA-Z]{3}\\/[a-zA-Z]{3})$";
-        Pattern timeStampPattern = Pattern.compile(regex);
-        Matcher timeStampMatcher = timeStampPattern.matcher(timestamp);
-
-        String day=timeStampMatcher.group(1);
-        String month=timeStampMatcher.group(2);
-        String year=timeStampMatcher.group(3);
-        String hour=timeStampMatcher.group(4);
-        String minute=timeStampMatcher.group(5);
-        String second=timeStampMatcher.group(6);
-        System.out.println(day+" "+month+" "+year+" "+hour+" "+minute);
+        // System.out.println(day+" "+month+" "+year+" "+hour+" "+minute);
 
         return new TimeStamp(day, month, year, hour, minute, second);
     }
